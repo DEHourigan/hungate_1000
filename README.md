@@ -1,2 +1,2 @@
 # hungate_1000
-Scripts analysisng the Hungate1000 Culture Collection
+Scripts analysing the Hungate1000 Culture Collection for bacteriocin gene clusters
