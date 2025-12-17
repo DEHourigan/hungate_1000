@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=20in
+\paperheight=9in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=19.8in
+\textheight=8.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{lan2_gg.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{10}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{JIALDP 01560 Lantibiotic macedovicin}
+\nameseq{2}{MOCIPG 05750 lacticin 481 family lantibiotic}
+\nameseq{3}{KALHLD 10065 lacticin 481 family lantibiotic}
+\nameseq{4}{GILPNI 07240 lacticin 481 family lantibiotic}
+\nameseq{5}{ACJJKH 07855 lacticin 481 family lantibiotic}
+\nameseq{6}{MEDHJN 05840 Type 2 lantibiotic}
+\nameseq{7}{GEBGMI 07495 Class I lanthipeptide}
+\nameseq{8}{DBFIBH 05660 Class I lanthipeptide}
+\nameseq{9}{IKBHNK 07560 Lantibiotic lichenicidin VK21 A2}
+\nameseq{10}{NNFCLM 15475 Lantibiotic cytolysin}
+\nameseq{11}{GBJPGG 08515 class II lanthipeptide, LchA2/BrtA2 family}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

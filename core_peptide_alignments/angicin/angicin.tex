@@ -1,0 +1,40 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=20in
+\paperheight=12in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=19.8in
+\textheight=11.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{angicin.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{EBJBHN 04290 }
+\nameseq{2}{IOBNNN 05910 (partial)}
+\nameseq{3}{CIMDDF 06250 }
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

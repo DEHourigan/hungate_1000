@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=10in
+\paperheight=3.5in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=9.8in
+\textheight=2.9in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/nisin/nisin_like.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{Pseudobutyrivibrio sp. 49}
+\nameseq{2}{Pseudobutyrivibrio sp. UC1225}
+\nameseq{3}{Pseudobutyrivibrio sp. 49}
+\nameseq{4}{Pseudobutyrivibrio sp. UC1225}
+\nameseq{5}{Pseudobutyrivibrio sp. 49}
+\nameseq{6}{Pseudobutyrivibrio sp. UC1225}
+\nameseq{7}{L. lactis 511 }
+\nameseq{8}{S. equinus B315}
+\nameseq{9}{S. equinus SN033}
+\nameseq{10}{S. equinus GA1}
+\nameseq{11}{S. equinus SI}
+\nameseq{12}{S. equinus R5}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=20in
+\paperheight=9in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=19.8in
+\textheight=8.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/lassopeptide/lassopeptide.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{10}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{DKDFGO 05825 Lasso RiPP family leader peptide-containing protein}
+\nameseq{2}{MDCENI 12925 Lasso RiPP family leader peptide-containing protein}
+\nameseq{3}{APNHLP 03785 Lasso peptide}
+\nameseq{4}{MDDLCH 11040 Lasso peptide}
+\nameseq{5}{EGPPOI 06395 Paeninodin family lasso peptide}
+\nameseq{6}{BAPACM 11765 Paeninodin family lasso peptide}
+\nameseq{7}{NLCFLM 07155 Paeninodin family lasso peptide}
+\nameseq{8}{GKGCKK 07220 Paeninodin family lasso peptide}
+\nameseq{9}{PPECAL 02995 hypothetical protein}
+\nameseq{10}{HMHFPH 06130 Paeninodin family lasso peptide}
+\nameseq{11}{PHFKJA 13800 Paeninodin family lasso peptide}
+\nameseq{12}{GMAAKK 18210 Paeninodin family lasso peptide}
+\nameseq{13}{MOBKGA 10540 hypothetical protein}
+\nameseq{14}{IDKLLN 15895 Paeninodin family lasso peptide}
+\nameseq{15}{CKFMIE 00455 Paeninodin family lasso peptide}
+\nameseq{16}{CKFMIE 00465 Paeninodin family lasso peptide}
+\nameseq{17}{CKFMIE 00470 Paeninodin family lasso peptide}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=14in
+\paperheight=3.5in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=13.8in
+\textheight=2.9in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{/data/users/david/hungate_410_asmash/analysis/core_peptide_alignments/circular_bacteriocin.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{Lachnospira multipara ATCC19207}
+\nameseq{2}{Lachnospira multipara D15d}
+\nameseq{3}{Lachnobacterium bovis AE2004}
+\nameseq{4}{Lachnobacterium bovis C6A12}
+\nameseq{5}{Lachnobacterium bovis NK4B19}
+\nameseq{6}{Lachnobacterium bovis S1b}
+\nameseq{7}{Lachnobacterium bovis DSM14045}
+\nameseq{8}{Lacbachobacterium sp. C7}
+\nameseq{9}{Clostridium polysaccharolyticum DSM1801}
+\nameseq{10}{Clostridium sp. DSM8431}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

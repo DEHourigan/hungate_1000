@@ -1,0 +1,41 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=7in
+\paperheight=3in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=6.8in
+\textheight=2.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/pediocin/pediocin_like_no_leader.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{S. gallolyticus VTM2R47}
+\nameseq{2}{E. mundtii C2}
+\nameseq{3}{L. ruminis DSM20403}
+\nameseq{4}{C. beijerinckii HUN142}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

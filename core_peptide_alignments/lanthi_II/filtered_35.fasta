@@ -1,0 +1,129 @@
+>IEDBEK_16390 Plantaricin C family lantibiotic
+-MKK-------------NYRNPMTRP------ENFMNPAGNVMKEIKEADLNNFSAGAGEPRVSDGSQFCTSTKE-----
+-------CNW-GTIMFVC----C-------------------------------------------
+>MEDHJN_05840 Type 2 lantibiotic
+MNKK-------------TWRNPFNRK------EDNRA----VAYEIDDQDLVGTSGGGV----VTALRLTLAGRC-----
+-------CDDALTMASAC----CPPKKNY-------------------------------------
+>MEDHJN_05845 salivaricin M family lantibiotic
+MNKK-------------TERNPIERT------E-EMA----VAREINEQDLAGKSGAGA----GTAIQLTLAGKC-----
+-------GRG-FTISYEC----TSSHVSCG------------------------------------
+>MEDHJN_05850 salivaricin M family lantibiotic
+MSKM-------------TERNPIERP------EDTMA----VQNEINEQDLAGKSGAGA----GTAIQLTLAGKC-----
+-------GGA-FTFSYEC----TSSHVSCG------------------------------------
+>LJCFBI_03490 salivaricin M family lantibiotic
+MKSK-------------KVNTE------------IDT----LEFEIDNQELNGTSGSGW---WYTAFKMTLAGRC-----
+-------GLC-FTCSYEC----TTNNVRC-------------------------------------
+>LJCFBI_03485 salivaricin M family lantibiotic
+--MK-------------QDNFE------------IDS----LDYEINSQELNGKSAAGW----RTAVRLTVQGRC-----
+-------GWW-FTYSYEC----TSPNVRCG------------------------------------
+>LJCFBI_03495 salivaricin M family lantibiotic
+MRKN-------------NNHKE------------IDT----LDFEVKNQELSGKSGSGW----FTAVQLTLAGRC-----
+-------GRW-FTGSYEC----TSNNVKCG------------------------------------
+>LJCFBI_03500 salivaricin M family lantibiotic
+MPKN-------------TSRPE------------IDS----LSFEVENQELSGKSGSGW----FTAVQLTLAGRC-----
+-------GRW-FTGSFEC----TTNNVKCG------------------------------------
+>DBFIBH_05660 Class I lanthipeptide
+-----------------------------------MEKNNLELGKYMESDLIALTD-ETVDGGTTPATPATPVIVAVSAY
+-VSDKTC-----------------PTTACTRAC---------------------------------
+>GEBGMI_07495 Class I lanthipeptide
+-----------------------------------MEKNNLELGKYMESDLIALTD-ETVDGGTTPATPATPVIVAVSAY
+-VSDKTC-----------------PTTACTRAC---------------------------------
+>IKBHNK_07560 Lantibiotic lichenicidin VK21 A2
+-----------------MKTMKNSAA------REAFKGANHPAGMVSEEELKALVGGNDVNPETTPATTSSWTCITAGVT
+-VSASLC-----------------PTTKCTSRC---------------------------------
+>NNFCLM_15475 Lantibiotic cytolysin
+-----------------MSEI-------------NNKKINSPEGEVNEKELQELTDAETPDGG--------HPTVPITIA
+-ISATAC-----------------PSTKCTSKC---------------------------------
+>DCMDNB_13185 Lantibiotic cytolysin
+-----------------MGEF-------------KNEIKNAPEGEVNEKELQELAEGDAEGGV--------PITVPITIA
+-ASTAFC-----------------PSIKCSSKC---------------------------------
+>GBJPGG_08515 class II lanthipeptide, LchA2/BrtA2 family
+-----------------MGEF-------------NNEIKNAPEGEVNEQELKELTNAEQAGGV--------APVVPIIIA
+-ASTAFC-----------------PTIKCTSKC---------------------------------
+>DPDKIB_18140 Bacteriocin, lactococcin 972 family
+MKKKIIAILGCMCACLLVQGIPVMAA------EQNDKEVVYAEQEVNLDEYMQDQTMPAVPTVIYGVKPTLERGRPSSPN
+ADGGYFWVEWGAERHYSLFDHSYKVHRTSAGNSKTTVRGDWTAQGYRASTWCYSTLTGNTAYWATQ
+>BBEHJI_14120 Class IIb bacteriocin, lactobin A/cerein 7B family
+------------------------MN------KKRSFVVGDLMQEIQEQDLMVPVG-GAVDGGGNRVQSVLTVISA-ITA
+ITGLTAWSNDKATRKFKCGEVLTL-SAECNGGTA-----------------C--------------
+>CCKMEK_13035 Type 2 lantibiotic, SP_1948 family
+----------------------MSEE------KKIEEVVGGSFEEMPLEDMENTQGAGDVDAETTPALPVSAWGV--SVI
+ASAVSGA--------------IVS-SKKC-------------------------------------
+>CCKMEK_13040 Type 2 lantibiotic, SP_1948 family
+-----------------------MAQ------EKINEVVGESFEDLKEDEMLQTQGAGDVDAETTPAITVSAAVV--IGG
+SLGFEAT--------------VKV-TKTCNGNCG--------------------------------
+>CCKMEK_13015 Type 2 lantibiotic, SP_1948 family
+-----------------------MGE------KEINKVVGNSFEELGAEDMQQTQGAGDVNPEVVSNCFTLTPSV----I
+VANPSLV--------------SVS-LLNK-------------------------------------
+>CCKMEK_13045 Type 2 lantibiotic, SP_1948 family
+--------------------------------MRLKKFVGEAFEELTVDEMKMVQGSGDVEADFNYMAVLSQANAA-MAI
+TASPVLI---------------TL-DGRC-------------------------------------
+>CCKMEK_13005 Type 2 lantibiotic, SP_1948 family
+-----------------------MSK------KKLDQVVGASFEDLNTEDMQNTQGGGDVNAETIVTISNLT-------L
+-VGPIVS---------------IP-VVSCAK-----------------------------------
+>CCKMEK_13010 Type 2 lantibiotic, SP_1948 family
+-----------------------MGK------KKLDQIVGTSFEDLNTEDMQNTQGAGDVDAETTPVIMPICSPS---AV
+-VNPTLA---------------LS-LISK-------------------------------------
+>CCKMEK_13020 Type 2 lantibiotic, SP_1948 family
+-----------------------MGK------KDLEKIVGAAYEDLNTEDMQNTQGAGDTEAETVSLAITGAIAS---VI
+-SGA------------------IS-LKKCV------------------------------------
+>CCKMEK_13030 Type 2 lantibiotic, SP_1948 family
+-----------------------MGK------KDLDKIVGAAFEELDVDDMQQVQGAGDVEAETTV-PLSVVIAT---AA
+-SAI------------------YS-SKKC-------------------------------------
+>DPDKIB_18130 Lantibiotic
+-----------------MHLEQNLDSAGDL------------FMELDEQNKII---PDE-DNVEMGISHTSGCG------
+---VF--------LT---IY------------------------------CC--------------
+>DBFIBH_05665 Lantibiotic alpha
+-------------------------------MNTENKNEVTWLDEVSAQEFDEEVYGAC-STNTFSLSDYMGNN------
+---GN-W----CTISHECMA------------------------------WCK-------------
+>GEBGMI_07490 Lantibiotic alpha
+-------------------------------MNTENKNEVTWLDEVSAQEFDEEVYGAC-STNTFSLSDYMGNN------
+---GN-W----CTISHECMA------------------------------WCK-------------
+>DCMDNB_13190 Lantibiotic alpha
+------------MGDLNAIKDPVLRQKMEI-LTDPNANV---SIELTEQDMQA-LAGA---GWYSEMSAALGNR------
+---GS-Y----CTLTKECQA------------------------------CCN-------------
+>NNFCLM_15480 Lantibiotic alpha
+------------MENLSNIKDPVLRAKVELIMNDPSGNV---SVELSEQDMEA-LAGA---GKK-SISAALGNK------
+---GH-I----CTITKECQA------------------------------CCN-------------
+>DCMDNB_13195 Plantaricin C family lantibiotic
+------------MASIEKISDPDLRGKLDMLLSDLSGTI---YGELSEQDMEA-LSGA---GWQDSPSPMFGHG------
+---GWNQ----ISCTKDCNA------------------------------HCM-------------
+>GBJPGG_08525 Plantaricin C family lantibiotic
+------------MASFEKIIDPEIRSKLDMVMKAQEESV---FAELTEQDMEA-LSGA---GWYGNLEHFFGHR------
+---DLRY----ISCTRDCNA------------------------------HCN-------------
+>JIALDP_01560 Lantibiotic macedovicin
+-----------------------------M---MNATENQIFVETVSDQELEMLIGGAD-RGW-----------------
+------I----KTLTKDCPNVISS----IC--------------AGTIITACKIVLNLLPSNFLK-
+>DDFDAA_09825 RSAM-modified peptide
+-----------------------MKKIKTI----ENSINDLREARLGISQMSDIYGGKK-DKSH----------------
+----HCF----GLDQF-MINDYCF----CNKRR-------------FI------------------
+>DDFDAA_09815 Type 2 lantibiotic
+-------------------MSKNLEKAIKM---AESKMIAENPVNLDSEAMSILNGGQE-INPG----------------
+-----VF----GTISAECRADRVS----CHERKP-----DARDLIQLIFH----------------
+>ACJJKH_07855 lacticin 481 family lantibiotic
+-----------------------------M---NKDL--NALTNPIDEKELEQILGG----GDG----------------
+-----VF----RTISHECHMNTWM----------------------FIFTCCS-------------
+>GJHPGN_04875 lacticin 481 family lantibiotic
+-----------------------MKNTNII---DIKA--TEALQELSLEELDTIIGA-K-KGSG----------------
+-----VV----PTVSHDCHMNSWQ----------------------FLFTCCS-------------
+>EBJBHN_05615 lacticin 481 family lantibiotic
+-----------------------MKNTNII---DIKA--TEALQELSLEELDTIIGA-K-KGSG----------------
+-----VV----PTVSHDCHMNSWQ----------------------FLFTCCS-------------
+>IKMHFE_03160 lacticin 481 family lantibiotic
+-----------------------MKNTNII---DIKA--TEALQELSLEELDTIIGA-K-KGSG----------------
+-----VV----PTVSHDCHMNSWQ----------------------FLFTCCS-------------
+>MOADFP_05030 lacticin 481 family lantibiotic
+-----------------------MKNTNII---DIKA--TEALQELSLEELDTIIGA-K-KGSG----------------
+-----VV----PTVSHDCHMNSWQ----------------------FLFTCCS-------------
+>HDEPEA_05680 lacticin 481 family lantibiotic
+-----------------------MKNTNII---DIKA--TEALQELSLEELDTIIGA-K-KGSG----------------
+-----VV----PTVSHDCHMNSWQ----------------------FLFTCCS-------------
+>MOCIPG_05750 lacticin 481 family lantibiotic
+--------------------------MDKL---NHSA--VTSLNEVSDSELDTILGGSR-FWQG----------------
+-----VV----PTVSYECRMNSWQ----------------------SIFTCC--------------
+>KALHLD_10065 lacticin 481 family lantibiotic
+--------------------------MDKL---NHSA--VTSLNEVSDSELDTILGGSR-FWQG----------------
+-----VV----PTVSYECRMNSWQ----------------------SIFTCC--------------
+>GILPNI_07240 lacticin 481 family lantibiotic
+--------------------------MDKL---NHSA--VTSLNEVSDSELDTILGGSR-FWQG----------------
+-----VV----PTVSYECRMNSWQ----------------------SIFTCC--------------

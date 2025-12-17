@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=16in
+\paperheight=3.5in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=15.8in
+\textheight=2.9in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/non-nisin/lantibiotic_non_nisin.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{OEMDBE 00115 Lantibiotic Pep5}
+\nameseq{2}{JJAFAM 06975 Peptostreptococcus sp. D1}
+\nameseq{3}{NLCFLM 24050 C. beijerinckii HUN142}
+\nameseq{4}{NLCFLM 24035 C. beijerinckii HUN142}
+\nameseq{5}{NLCFLM 24030 C. beijerinckii HUN142}
+\nameseq{6}{NLCFLM 24045 C. beijerinckii HUN142}
+\nameseq{7}{NLCFLM 24095 C. beijerinckii HUN142}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=20in
+\paperheight=9in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=19.8in
+\textheight=8.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{/data/users/david/hungate_410_asmash/analysis/core_peptide_alignments/IIB_bacteriocin.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{10}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{BKANDP 06005}
+\nameseq{2}{GINLMA 04435}
+\nameseq{3}{ECDHJF 06265}
+\nameseq{4}{NOCGMI 06630}
+\nameseq{5}{DDIDDG 02255}
+\nameseq{6}{ECDHJF 06275}
+\nameseq{7}{BKANDP 05995}
+\nameseq{8}{GINLMA 04445}
+\nameseq{9}{EGPFLP 00955}
+\nameseq{10}{JHGBMJ 09345}
+\nameseq{11}{KALHLD 05610}
+\nameseq{12}{MOCIPG 03375}
+\nameseq{13}{HDEPEA 06125}
+\nameseq{14}{NDNJMB 09570}
+\nameseq{15}{KCLKHH 07005}
+\nameseq{16}{IKMHFE 06975}
+\nameseq{17}{OLMONE 04600}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

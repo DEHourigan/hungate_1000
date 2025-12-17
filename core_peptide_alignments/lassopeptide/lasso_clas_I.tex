@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=8in
+\paperheight=3in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=7.8in
+\textheight=2.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/lassopeptide/lasso_clas_I.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{Butyrivibrio fibrisolvens TB}
+\nameseq{2}{Butyrivibrio sp000424545 NC3005 (1)}
+\nameseq{3}{Butyrivibrio sp000424545 NC3005 (2)}
+\nameseq{4}{Butyrivibrio sp000424545 NC3005 (3)}
+\nameseq{5}{Butyrivibrio fibrisolvens AB2020}
+\nameseq{6}{Butyrivibrio fibrisolvens AR40}
+\nameseq{7}{Butyrivibrio fibrisolvens MD2001}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=20in
+\paperheight=12in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=19.8in
+\textheight=11.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{IIB_groupA.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{BKANDP 05995}
+\nameseq{2}{NOCGMI 06630}
+\nameseq{3}{DDIDDG 02255}
+\nameseq{4}{ECDHJF 06275}
+\nameseq{5}{GINLMA 04445}
+\nameseq{6}{HDEPEA 06125}
+\nameseq{7}{IKMHFE 06975}
+\nameseq{8}{KCLKHH 07005}
+\nameseq{9}{NDNJMB 09570}
+\nameseq{10}{OLMONE 04600}
+\nameseq{11}{BKANDP 06005}
+\nameseq{12}{GINLMA 04435}
+\nameseq{13}{ECDHJF 06265}
+\nameseq{14}{KALHLD 05610}
+\nameseq{15}{MOCIPG 03375}
+\nameseq{16}{EGPFLP 00955}
+\nameseq{17}{JHGBMJ 09345}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}

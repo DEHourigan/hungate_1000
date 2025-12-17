@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+
+\usepackage{texshade}
+
+\headheight=0pt
+\headsep=0pt
+\hoffset=0pt
+\voffset=0pt
+\paperwidth=10in
+\paperheight=6in
+\ifx\pdfoutput\undefined
+\relax
+\else
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\fi
+\oddsidemargin=-0.9in
+\topmargin=-0.7in
+\textwidth=9.8in
+\textheight=5.4in
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{texshade}{core_peptide_alignments/lassopeptide/GAD_motif.fasta}
+\seqtype{P}
+\shadingmode{identical}
+\threshold{50}
+\showconsensus[ColdHot]{bottom}
+\shadingcolors{blues}
+\showsequencelogo[rasmol]{top}
+\hidelogoscale
+\shownames{left}
+\nameseq{1}{C. beijerinckii HUN142}
+\nameseq{2}{C. butyricum AGR2140 }
+\nameseq{3}{B. wiedwanii KPR7A}
+\nameseq{4}{E. cellulosolvens LD2006}
+\nameseq{5}{B. fibrosolvens AB2020}
+\nameseq{6}{B. fibrosolvens AR40}
+\nameseq{7}{B. fibrosolvens MD2001}
+\nameseq{8}{Butryvibrio sp. XPD2006}
+\nameseq{9}{Butryvibrio sp. TB}
+\nameseq{10}{Butryvibrio sp. NC3005 (1)}
+\nameseq{11}{Butryvibrio sp. NC3005 (2)}
+\nameseq{12}{Butryvibrio sp. NC3005 (3)}
+\hidenumbering
+\showlegend
+\end{texshade}
+\end{document}
