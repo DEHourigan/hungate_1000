@@ -10,11 +10,8 @@ library(ggplot2)
 library(tinytex)
 library(data.table)
 
-<<<<<<< HEAD
-# Function to align sequences and generate LaTeX and PDF files
-=======
+
 # Function to align sequences 
->>>>>>> Initial commit: add Hungate_alignments.R and core_peptide_alignments
 align_and_generate <- function(input_file, output_tex, output_fasta, paper_width, paper_height, consensus_threshold = 50) {
     seq <- readAAStringSet(input_file, format = "fasta")
     aln <- msa(seq, method = "ClustalO")
@@ -27,7 +24,6 @@ align_and_generate <- function(input_file, output_tex, output_fasta, paper_width
     tinytex::pdflatex(output_tex)
 }
 
-<<<<<<< HEAD
 # Alignments and LaTeX generation
 align_and_generate("alignment_folder/pediocin_like_no_leader.faa", 
                                      "alignment_folder/pediocin_like_no_leader.tex", 
