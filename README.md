@@ -7,7 +7,15 @@ All 410 cultivated reference genomes are available from the Joint Genome Institu
 **[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/Hungate_1000_GMSC.html)**  
 (Scrollable, searchable, best viewed on desktop)
 
+This study aims to identify bacteriocins encoded by ruminant-associated bacteria to establish a foundation for microbiome-native antimicrobial strategies capable of modulating rumen community structure and function. A secondary aim is to explore the ecological and evolutionary context of these bacteriocins, including their association with host specificity and microbial competition within and outside the rumen ecosystem.
 ![Hungate 1000 rationale](images/Hungate_1000_rationale.png)
+
+
+The bacteriocins encoded in the Hungate 1000 culture collection are found in the global microbiome when looking at exact core peptides.
+![Hungate 1000 rationale](images/world_map_core_peptides_100ID.png)
+
+The bacteriocins encoded in the Hungate 1000 culture collection are found in ruminant animals.
+![Hungate 1000 rationale](images/habitat_distribution.png)
 
 ## Conclusion
 Overall, ~30% of rumen isolates encode known antimicrobial bacteriocins, rising to ~70% when including less-characterised peptide classes, highlighting the rumen as a rich reservoir of antimicrobial diversity.
