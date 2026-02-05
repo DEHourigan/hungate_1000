@@ -12,10 +12,13 @@ This study aims to identify bacteriocins encoded by ruminant-associated bacteria
 
 
 The bacteriocins encoded in the Hungate 1000 culture collection are found in the global microbiome when looking at exact core peptides.
+
 <img src="images/world_map_core_peptides_100ID.png" width="500">
 
 The bacteriocins encoded in the Hungate 1000 culture collection are found in ruminant animals.
-![Hungate 1000 rationale](images/habitat_distribution.png)
+
+<img src="images/habitat_distribution.png" width="500">
+
 
 ## Conclusion
 Overall, ~30% of rumen isolates encode known antimicrobial bacteriocins, rising to ~70% when including less-characterised peptide classes, highlighting the rumen as a rich reservoir of antimicrobial diversity.
