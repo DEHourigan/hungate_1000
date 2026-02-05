@@ -12,7 +12,7 @@ This study aims to identify bacteriocins encoded by ruminant-associated bacteria
 
 
 The bacteriocins encoded in the Hungate 1000 culture collection are found in the global microbiome when looking at exact core peptides.
-![Hungate 1000 rationale](images/world_map_core_peptides_100ID.png)
+<img src="images/world_map_core_peptides_100ID.png" width="500">
 
 The bacteriocins encoded in the Hungate 1000 culture collection are found in ruminant animals.
 ![Hungate 1000 rationale](images/habitat_distribution.png)
