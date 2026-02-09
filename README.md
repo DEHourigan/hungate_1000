@@ -4,10 +4,10 @@ This project mines 410 rumen-derived genomes from the Hungate1000 collection to 
 All 410 cultivated reference genomes are available from the Joint Genome Institute with under the DOI 10.46936/10.25585/60000534 or from NCBI under the Umbrella project accession PRJNA471733. Here are the scripts analysing the Hungate1000 Culture Collection for bacteriocin gene clusters. 
 
 ## Interactive GMSC Table
-**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/docs/Hungate_1000_GMSC.html)**  
+**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/Hungate_1000_GMSC.html)**  
 
 ## Interactive GenBank Table
-**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/docs/hungate_genbank_table.html)**  
+**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/Hungate1000_GenBank.html)**  
 
 This study aims to identify bacteriocins encoded by ruminant-associated bacteria to establish a foundation for microbiome-native antimicrobial strategies capable of modulating rumen community structure and function. A secondary aim is to explore the ecological and evolutionary context of these bacteriocins, including their association with host specificity and microbial competition within and outside the rumen ecosystem.
 ![Hungate 1000 rationale](images/Hungate_1000_rationale.png)
