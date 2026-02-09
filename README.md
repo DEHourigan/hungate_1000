@@ -7,7 +7,7 @@ All 410 cultivated reference genomes are available from the Joint Genome Institu
 **[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/docs/Hungate_1000_GMSC.html)**  
 
 ## Interactive GenBank Table
-**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/docs/genbank_hungate1000.html)**  
+**[Click here to explore the interactive HTML table](https://dehourigan.github.io/hungate_1000/docs/hungate_genbank_table.html)**  
 
 This study aims to identify bacteriocins encoded by ruminant-associated bacteria to establish a foundation for microbiome-native antimicrobial strategies capable of modulating rumen community structure and function. A secondary aim is to explore the ecological and evolutionary context of these bacteriocins, including their association with host specificity and microbial competition within and outside the rumen ecosystem.
 ![Hungate 1000 rationale](images/Hungate_1000_rationale.png)
