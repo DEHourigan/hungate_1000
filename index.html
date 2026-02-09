@@ -5,33 +5,107 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Hungate1000 interactive tables</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 850px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
-    h1 { margin-bottom: 0.2rem; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.55;
+      color: #111;
+    }
+    h1 { margin-bottom: 0.25rem; }
+    h2 { margin-top: 0; }
     p { color: #333; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; }
-    a.button { display: inline-block; padding: 10px 14px; border-radius: 10px; border: 1px solid #111; text-decoration: none; color: #111; margin-top: 8px; }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 16px 0;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #111;
+      text-decoration: none;
+      color: #111;
+      margin-top: 8px;
+    }
     a.button:hover { background: #f5f5f5; }
-    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
+    .paper {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #ddd;
+    }
+    .title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .authors {
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+    .affiliations {
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.45;
+    }
+    .note {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: #555;
+      font-style: italic;
+    }
   </style>
 </head>
+
 <body>
   <h1>Hungate1000 interactive tables</h1>
-  <p>Quick links to interactive, searchable HTML tables hosted via GitHub Pages.</p>
+  <p>
+    Interactive, searchable tables derived from the Hungate 1000 prokaryotic culture collection,
+    hosted via GitHub Pages.
+  </p>
 
   <div class="card">
     <h2>GenBank table</h2>
-    <p>Interactive table derived from GenBank-associated metadata.</p>
-    <a class="button" href="Hungate1000_GenBank.html">Open Hungate1000_GenBank.html</a>
+    <p>Interactive table derived from GenBank-associated genome metadata.</p>
+    <a class="button" href="Hungate1000_GenBank.html">Open GenBank table</a>
   </div>
 
   <div class="card">
     <h2>GMSC table</h2>
-    <p>Interactive table derived from the Global Microbial smORFs Catalogue (GMSC) mapping.</p>
-    <a class="button" href="Hungate_1000_GMSC.html">Open Hungate_1000_GMSC.html</a>
+    <p>Interactive table showing mappings to the Global Microbial smORFs Catalogue (GMSC).</p>
+    <a class="button" href="Hungate_1000_GMSC.html">Open GMSC table</a>
   </div>
 
-  <p style="margin-top:24px; font-size: 0.95rem; color:#555;">
-    Repo: <a href="https://github.com/DEHourigan/hungate_1000">DEHourigan/hungate_1000</a>
+  <div class="paper">
+    <div class="title">
+      The Hungate 1000 prokaryotic culture collection encodes a wide variety of bacteriocins
+    </div>
+
+    <div class="authors">
+      David Hourigan<sup>a,b</sup>, Lorraine Draper<sup>a,b</sup>, Sinéad C. Leahy<sup>d,e</sup>,
+      Graeme T. Attwood<sup>d</sup>, William J. Kelly<sup>d</sup>, Catherine Stanton<sup>a,c</sup>,
+      Colin Hill<sup>a,b</sup>, R. Paul Ross<sup>a,b,c</sup>
+    </div>
+
+    <div class="affiliations">
+      <sup>a</sup> APC Microbiome Ireland, Biosciences Institute, University College Cork, Cork, Ireland<br>
+      <sup>b</sup> School of Microbiology, University College Cork, Cork, Ireland<br>
+      <sup>c</sup> Teagasc Food Research Centre, Moorepark, Fermoy, Co. Cork, Ireland<br>
+      <sup>d</sup> AgResearch Ltd., Grasslands Research Centre, Palmerston North, New Zealand<br>
+      <sup>e</sup> New Zealand Agricultural Greenhouse Gas Research Centre (NZAGRC), Palmerston North, New Zealand
+    </div>
+
+    <div class="note">
+      This manuscript has been submitted for publication. The DOI will be added here once the article is published.
+    </div>
+  </div>
+
+  <p style="margin-top:28px; font-size:0.9rem; color:#555;">
+    GitHub repository:
+    <a href="https://github.com/DEHourigan/hungate_1000">DEHourigan/hungate_1000</a>
   </p>
 </body>
 </html>
